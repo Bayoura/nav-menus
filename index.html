@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nav menus</title>
+    <link href="main.css" rel="stylesheet">
+    <script defer src="main.js"></script>
+</head>
+<body>
+        <nav>
+            <li class="menu">
+                Dropdown scale
+                <ul class="dropdown dropdown-scale">
+                    <li>Item 1</li>
+                    <li>Item 2</li>
+                    <li>Item 3</li>
+                    <li>Item 4</li>
+                    <li>Item 5</li>
+                </ul>
+            </li>
+
+            <li class="menu">
+                Dropdown translate
+                <ul class="dropdown dropdown-translate">
+                    <li class="dropdown_item-1">Item 1</li>
+                    <li class="dropdown_item-2">Item 2</li>
+                    <li class="dropdown_item-3">Item 3</li>
+                    <li class="dropdown_item-4">Item 4</li>
+                    <li class="dropdown_item-5">Item 5</li>
+                </ul>
+            </li>
+        </nav>
+        <main>
+            <section class="slideshow-container">
+                <div class="slideshow" data-slideshow>
+                    <button class="slide-button prev" data-slideButton="prev">&larr;</button>
+                    <button class="slide-button next" data-slideButton="next">&rarr;</button>
+                    <ul data-slides>
+                        <li class="slide" data-active>
+                            <img src="images/jonatan-pie-3N5ccOE3wGg-unsplash.jpg" alt="person standing in the midst of snowy mountains">
+                        </li>
+                        <li class="slide">
+                            <img src="images/robert-lukeman-_RBcxo9AU-U-unsplash.jpg" alt="stones laid out in a spiral shape in a green grass field">
+                        </li>
+                        <li class="slide">
+                            <img src="images/mark-harpur-K2s_YE031CA-unsplash.jpg" alt="purple flowers in front of a lake during sunset">
+                        </li>
+                    </ul>
+                    <div class="navigation" data-navigation>
+                        <button class="nav-btn active" data-nav-bullet="0"></button>
+                        <button class="nav-btn" data-nav-bullet="1"></button>
+                        <button class="nav-btn" data-nav-bullet="2"></button>
+                    </div>
+                </div>
+            </section>
+        </main>
+</body>
+</html>
